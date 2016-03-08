@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:text="Sephiroath!"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_alignParentLeft="true"
+        android:textAllCaps="true"
+        android:textStyle="italic"
+        android:background="@android:color/holo_blue_dark"/>
+    <TextView
+        android:text="is Awesome!"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/holo_blue_dark"/>
+
+    <TextView
+        android:text="fuh real!"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/holo_blue_dark"/>
+
+</RelativeLayout>
